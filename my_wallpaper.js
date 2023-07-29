@@ -15,19 +15,49 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(240, 255, 240); //light honeydew green colour
+  background(255, 255, 255); //white colour
 }
 
+
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
-beginShape(TRIANGLES);
-vertex(30, 75);
-vertex(40, 20);
-vertex(50, 75);
-vertex(60, 20);
-vertex(70, 75);
-vertex(80, 20);
-endShape();
+var x = 0;
+var y = 200;
+var z = 80;//middle points of first one
+var a = 120;//middle points of second one
+var b = 50;//middle points of third one
+var c = 160;//middle points of fourth one
+var d = 20;//middle points of fifth one
 
+fill(51);//noFill
+noStroke();
+beginShape();
+vertex(z, 0);//top point
+vertex(x, y);//left point
+vertex(z, 20);//middle point
+vertex(y, y);//right point
+endShape(CLOSE);
 
+vertex(a, 40);//top point
+vertex(x, y);//left point
+vertex(a, 60);//middle point
+vertex(y, y);//right point
+endShape(CLOSE);
 
+vertex(b, 80);//top point
+vertex(x, y);//left point
+vertex(b, 100);//middle point
+vertex(y, y);//right point
+endShape(CLOSE);
+
+vertex(c, 120);//top point
+vertex(x, y);//left point
+vertex(c, 140);//middle point
+vertex(y, y);//right point
+endShape(CLOSE);
+
+vertex(d, 160);//top point
+vertex(x, y);//left point
+vertex(d, 180);//middle point
+vertex(y, y);//right point
+endShape(CLOSE);
 }
