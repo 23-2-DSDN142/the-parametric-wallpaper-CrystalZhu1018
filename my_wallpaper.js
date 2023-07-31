@@ -1,7 +1,7 @@
 //your parameter variables go here!
 let rect_width  = 20;
 let rect_height = 20;
-
+let onepatternmode = true;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(DEVELOP_GLYPH);
@@ -40,6 +40,52 @@ var i = 100; //middle points of third one
 var j = 100;//middle points of fourth one
 var k = 100;//middle points of fifth one
 
+if(onepatternmode){
+let BRIGHTGREEN = color(0,225,0)
+
+//background(255, 204, 0);
+fill(0);//noFill
+noStroke();
+beginShape();
+vertex(z, 0);//top point
+vertex(x, n);//left point
+vertex(z, 20);//middle point
+vertex(y, o);//right point
+endShape(CLOSE);
+
+fill(BRIGHTGREEN);
+beginShape();
+vertex(a, 40);//top point
+vertex(x, n);//left point
+vertex(a, 60);//middle point
+vertex(y, o);//right point
+endShape(CLOSE);
+
+fill("red");
+beginShape();
+vertex(b, 80);//top point
+vertex(x, n);//left point
+vertex(b, 100);//middle point
+vertex(y, o);//right point
+endShape(CLOSE);
+
+
+beginShape();
+vertex(c, 120);//top point
+vertex(x, n);//left point
+vertex(c, 140);//middle point
+vertex(y, o);//right point
+endShape(CLOSE);
+
+beginShape();
+vertex(d, 160);//top point
+vertex(x, n);//left point
+vertex(d, 180);//middle point
+vertex(y, o);//right point
+endShape(CLOSE);
+
+}else{
+//background(255, 255, 255);
 fill(51);//noFill
 noStroke();
 beginShape();
@@ -72,7 +118,7 @@ vertex(x, n);//left point
 vertex(d, 180);//middle point
 vertex(y, o);//right point
 endShape(CLOSE);
-  
+
   fill('red');
   noStroke();
   beginShape();
@@ -105,5 +151,6 @@ endShape(CLOSE);
   vertex(f, m);//right point
   vertex(k, 40);//top point
   endShape(CLOSE);
+}
 
-  }
+}
