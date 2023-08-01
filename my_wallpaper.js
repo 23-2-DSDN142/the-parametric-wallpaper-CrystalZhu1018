@@ -2,6 +2,7 @@
 let rect_width  = 20;
 let rect_height = 20;
 let onepatternmode = true;
+let brightpink = color(255, 3, 154)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(DEVELOP_GLYPH);
@@ -41,10 +42,9 @@ var j = 100;//middle points of fourth one
 var k = 100;//middle points of fifth one
 
 if(onepatternmode){
-let BRIGHTGREEN = color(0,225,0)
 
 //background(255, 204, 0);
-fill(0);//noFill
+fill(brightpink);//noFill
 noStroke();
 beginShape();
 vertex(z, 0);//top point
