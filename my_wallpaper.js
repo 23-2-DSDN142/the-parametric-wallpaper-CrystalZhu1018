@@ -1,8 +1,7 @@
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let onepatternmode = true;
-let brightpink = color(255, 3, 154)
+//let rect_width  = 20;
+//let rect_height = 20;
+let onepatternmode = false;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(DEVELOP_GLYPH);
@@ -43,8 +42,14 @@ var k = 100;//middle points of fifth one
 
 if(onepatternmode){
 
-//background(255, 204, 0);
-fill(brightpink);//noFill
+background(0, 0, 0);
+let BRIGHTPINK = color(255, 3, 154);
+let MILDPINK = color(252, 41, 169);
+let MEDIUMPINK = color(255, 87, 188);
+let PINK = color(255, 125, 203);
+let LIGHTPINK = color(255, 161, 217);
+
+fill(BRIGHTPINK);//noFill
 noStroke();
 beginShape();
 vertex(z, 0);//top point
@@ -53,7 +58,7 @@ vertex(z, 20);//middle point
 vertex(y, o);//right point
 endShape(CLOSE);
 
-fill(BRIGHTGREEN);
+fill(MILDPINK);
 beginShape();
 vertex(a, 40);//top point
 vertex(x, n);//left point
@@ -61,7 +66,7 @@ vertex(a, 60);//middle point
 vertex(y, o);//right point
 endShape(CLOSE);
 
-fill("red");
+fill(MEDIUMPINK);
 beginShape();
 vertex(b, 80);//top point
 vertex(x, n);//left point
@@ -69,7 +74,7 @@ vertex(b, 100);//middle point
 vertex(y, o);//right point
 endShape(CLOSE);
 
-
+fill(PINK);
 beginShape();
 vertex(c, 120);//top point
 vertex(x, n);//left point
@@ -77,6 +82,7 @@ vertex(c, 140);//middle point
 vertex(y, o);//right point
 endShape(CLOSE);
 
+fill(LIGHTPINK);
 beginShape();
 vertex(d, 160);//top point
 vertex(x, n);//left point
@@ -85,7 +91,6 @@ vertex(y, o);//right point
 endShape(CLOSE);
 
 }else{
-//background(255, 255, 255);
 fill(51);//noFill
 noStroke();
 beginShape();
