@@ -100,24 +100,32 @@ vertex(z, 20);//middle point
 vertex(y, o);//right point
 endShape(CLOSE);
 
+fill('red');
+beginShape();
 vertex(a, 40);//top point
 vertex(x, n);//left point
 vertex(a, 60);//middle point
 vertex(y, o);//right point
 endShape(CLOSE);
 
+fill(51); 
+beginShape();
 vertex(b, 80);//top point
 vertex(x, n);//left point
 vertex(b, 100);//middle point
 vertex(y, o);//right point
 endShape(CLOSE);
 
+fill('red');
+beginShape();
 vertex(c, 120);//top point
 vertex(x, n);//left point
 vertex(c, 140);//middle point
 vertex(y, o);//right point
 endShape(CLOSE);
 
+fill(51); 
+beginShape();
 vertex(d, 160);//top point
 vertex(x, n);//left point
 vertex(d, 180);//middle point
@@ -133,24 +141,32 @@ endShape(CLOSE);
   vertex(g, 200);//top point
   endShape(CLOSE);
   
+  fill(51); 
+  beginShape();
   vertex(e, l);//left point
   vertex(h, 140);//middle point
   vertex(f, m);//right point
   vertex(h, 160);//top point
   endShape(CLOSE);
-  
+
+  fill('red');
+  beginShape();
   vertex(e, l);//left point
   vertex(i, 100);//middle point
   vertex(f, m);//right point
   vertex(i, 120);//top point
   endShape(CLOSE);
   
+  fill(51); 
+  beginShape();
   vertex(e, l);//left point
   vertex(j, 60);//middle point
   vertex(f, m);//right point
   vertex(j, 80);//top point
   endShape(CLOSE);
   
+  fill('red');
+  beginShape();
   vertex(e, l);//left point
   vertex(k, 20);//middle point
   vertex(f, m);//right point
