@@ -1,25 +1,5 @@
 //your parameter variables go here!
-//let rect_width  = 20;
-//let rect_height = 20;
-let onepatternmode = false;
-
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(DEVELOP_GLYPH);
-  pWallpaper.resolution(FIT_TO_SCREEN);
-  pWallpaper.show_guide(true); //set this to false when you're ready to print
-
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 200;
-  pWallpaper.grid_settings.cell_height = 200;
-  pWallpaper.grid_settings.row_offset  = 50;
-}
-
-function wallpaper_background() {
-  background(255, 255, 255); //white colour
-}
-
-
-function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
+let onepatternmode = true;
 var x = 0;
 var y = 200;
 var n = 200;//left point height
@@ -40,15 +20,31 @@ var i = 100; //middle points of third one
 var j = 100;//middle points of fourth one
 var k = 100;//middle points of fifth one
 
-if(onepatternmode){
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
 
-background(0, 0, 0);
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+function wallpaper_background() {
+  background(0,0,0); //black colour
+  background(255, 255, 255); //white colour
+}
+
+function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
+
+if(onepatternmode) {
 let BRIGHTPINK = color(255, 3, 154);
 let MILDPINK = color(252, 41, 169);
 let MEDIUMPINK = color(255, 87, 188);
 let PINK = color(255, 125, 203);
 let LIGHTPINK = color(255, 161, 217);
-
+ 
 fill(BRIGHTPINK);//noFill
 noStroke();
 beginShape();
@@ -175,3 +171,4 @@ endShape(CLOSE);
 }
 
 }
+//}
