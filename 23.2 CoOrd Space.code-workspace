@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../Desktop/Creative coding/Week1/Monday/23.2 CoOrd Space"
+		},
+		{
+			"path": "../../../Desktop/Creative coding/Week2/Monday/23.2 Parameterise me"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "23.2 Parameterise me",
+		"liveServer.settings.port": 5501
+	}
+}
