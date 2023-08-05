@@ -1,0 +1,511 @@
+Wallpaper One settings
+
+//parameter variables
+let onepatternmode = true;
+//normal one
+var n = 200;//left point height
+var o = 200;//right point height
+var z = 50;//first middle points x
+let p1 = 0;//first middle points y
+let p2 = p1+20;//first middle points y
+var a = 70;//second middle points x
+let q1 = p1+40;//second middle points y
+let q2 = p1+60;//second middle points y
+var b = 90;//third middle points x
+let r1 = p1+80;//third middle points y
+let r2 = p1+100;//third middle points y
+var c = 110;//fourth middle points x
+let s1 = p1+120;//fourth middle points y
+let s2 = p1+140;//fourth middle points y
+var d = 130;//fifth middle points x
+let t1 = p1+160;//fifth middle points y
+let t2 = p1+180;//fifth middle points y
+//inverted one
+var l = 0;//left point height
+var m = 0;//right point height
+var g = 100;//first middle points x
+let u1 = 180;//first middle points y
+let u2 = 200;//first middle points y
+var h = 100;//second middle points x
+let v1 = 140;//second middle points y
+let v2 = 160;//second middle points y
+var i = 100; //third middle points x
+let w1 = 100;//third middle points y
+let w2 = 120;//third middle points y
+var j = 100;//fourth middle points x
+let x1 = 60;//fourth middle points y
+let x2 = 80;//fourth middle points y
+var k = 100;//fifth middle points x
+let y1 = 20;//fifth middle points y
+let y2 = 40;//fifth middle points y
+//variables that do not change
+var x = 0;
+var y = 200;
+var e = 0;
+var f = 200;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER); 
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+Wallpaper Two settings
+
+//parameter variables
+let onepatternmode = true;
+//normal one
+var n = 200;//left point height
+var o = 100;//right point height
+var z = 10;//first middle points x
+let p1 = 10;//first middle points y
+let p2 = p1+5;//first middle points y
+var a = 190;//second middle points x
+let q1 = p1;//second middle points y
+let q2 = p1+25;//second middle points y
+var b = 40;//third middle points x
+let r1 = p1+40;//third middle points y
+let r2 = p1+80;//third middle points y
+var c = 170;//fourth middle points x
+let s1 = p1+110;//fourth middle points y
+let s2 = p1+140;//fourth middle points y
+var d = 190;//fifth middle points x
+let t1 = p1+170;//fifth middle points y
+let t2 = p1+200;//fifth middle points y
+//inverted one
+var l = 0;//left point height
+var m = 0;//right point height
+var g = 100;//first middle points x
+let u1 = 180;//first middle points y
+let u2 = 200;//first middle points y
+var h = 100;//second middle points x
+let v1 = 140;//second middle points y
+let v2 = 160;//second middle points y
+var i = 100; //third middle points x
+let w1 = 100;//third middle points y
+let w2 = 120;//third middle points y
+var j = 100;//fourth middle points x
+let x1 = 60;//fourth middle points y
+let x2 = 80;//fourth middle points y
+var k = 100;//fifth middle points x
+let y1 = 20;//fifth middle points y
+let y2 = 40;//fifth middle points y
+//variables that do not change
+var x = 0;
+var y = 200;
+var e = 0;
+var f = 200;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER); 
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+Wallpaper Three settings
+
+//parameter variables
+let onepatternmode = true;
+//normal one
+var n = 0;//left point height
+var o = 200;//right point height
+var z = 180;//first middle points x
+let p1 = 20;//first middle points y
+let p2 = p1+40;//first middle points y
+var a = 160;//second middle points x
+let q1 = p1+45;//second middle points y
+let q2 = p1+75;//second middle points y
+var b = 140;//third middle points x
+let r1 = p1+85;//third middle points y
+let r2 = p1+95;//third middle points y
+var c = 120;//fourth middle points x
+let s1 = p1+105;//fourth middle points y
+let s2 = p1+115;//fourth middle points y
+var d = 100;//fifth middle points x
+let t1 = p1+110;//fifth middle points y
+let t2 = p1+150;//fifth middle points y
+//inverted one
+var l = 0;//left point height
+var m = 0;//right point height
+var g = 100;//first middle points x
+let u1 = 180;//first middle points y
+let u2 = 200;//first middle points y
+var h = 100;//second middle points x
+let v1 = 140;//second middle points y
+let v2 = 160;//second middle points y
+var i = 100; //third middle points x
+let w1 = 100;//third middle points y
+let w2 = 120;//third middle points y
+var j = 100;//fourth middle points x
+let x1 = 60;//fourth middle points y
+let x2 = 80;//fourth middle points y
+var k = 100;//fifth middle points x
+let y1 = 20;//fifth middle points y
+let y2 = 40;//fifth middle points y
+//variables that do not change
+var x = 0;
+var y = 200;
+var e = 0;
+var f = 200;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER); 
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+Wallpaper Four settings
+
+//parameter variables
+let onepatternmode = true;
+//normal one
+var n = 100;//left point height
+var o = 100;//right point height
+var z = 60;//first middle points x
+let p1 = 0;//first middle points y
+let p2 = p1+20;//first middle points y
+var a = 10;//second middle points x
+let q1 = p1+10;//second middle points y
+let q2 = p1+60;//second middle points y
+var b = 10;//third middle points x
+let r1 = p1+20;//third middle points y
+let r2 = p1+90;//third middle points y
+var c = 10;//fourth middle points x
+let s1 = p1+50;//fourth middle points y
+let s2 = p1+160;//fourth middle points y
+var d = 10;//fifth middle points x
+let t1 = p1+190;//fifth middle points y
+let t2 = p1+200;//fifth middle points y
+//inverted one
+var l = 200;//left point height
+var m = 0;//right point height
+var g = 100;//first middle points x
+let u1 = 180;//first middle points y
+let u2 = 200;//first middle points y
+var h = 100;//second middle points x
+let v1 = 140;//second middle points y
+let v2 = 160;//second middle points y
+var i = 100; //third middle points x
+let w1 = 100;//third middle points y
+let w2 = 120;//third middle points y
+var j = 100;//fourth middle points x
+let x1 = 60;//fourth middle points y
+let x2 = 80;//fourth middle points y
+var k = 100;//fifth middle points x
+let y1 = 20;//fifth middle points y
+let y2 = 40;//fifth middle points y
+//variables that do not change
+var x = 0;
+var y = 200;
+var e = 0;
+var f = 200;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER); 
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+Wallpaper Five settings
+
+//parameter variables
+let onepatternmode = false;
+//normal one
+var n = 100;//left point height
+var o = 100;//right point height
+var z = 60;//first middle points x
+let p1 = 0;//first middle points y
+let p2 = p1+20;//first middle points y
+var a = 10;//second middle points x
+let q1 = p1+10;//second middle points y
+let q2 = p1+60;//second middle points y
+var b = 10;//third middle points x
+let r1 = p1+20;//third middle points y
+let r2 = p1+90;//third middle points y
+var c = 10;//fourth middle points x
+let s1 = p1+50;//fourth middle points y
+let s2 = p1+160;//fourth middle points y
+var d = 10;//fifth middle points x
+let t1 = p1+190;//fifth middle points y
+let t2 = p1+200;//fifth middle points y
+//inverted one
+var l = 200;//left point height
+var m = 150;//right point height
+var g = 100;//first middle points x
+let u1 = 180;//first middle points y
+let u2 = 200;//first middle points y
+var h = 100;//second middle points x
+let v1 = 140;//second middle points y
+let v2 = 160;//second middle points y
+var i = 100; //third middle points x
+let w1 = 100;//third middle points y
+let w2 = 120;//third middle points y
+var j = 100;//fourth middle points x
+let x1 = 60;//fourth middle points y
+let x2 = 80;//fourth middle points y
+var k = 100;//fifth middle points x
+let y1 = 20;//fifth middle points y
+let y2 = 40;//fifth middle points y
+//variables that do not change
+var x = 0;
+var y = 200;
+var e = 0;
+var f = 200;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+Wallpaper Six Settings
+
+//parameter variables
+let onepatternmode = false;
+//normal one
+var n = 200;//left point height
+var o = 200;//right point height
+var z = 120;//first middle points x
+let p1 = 0;//first middle points y
+let p2 = p1+10;//first middle points y
+var a = 120;//second middle points x
+let q1 = p1+20;//second middle points y
+let q2 = p1+40;//second middle points y
+var b = 120;//third middle points x
+let r1 = p1+50;//third middle points y
+let r2 = p1+80;//third middle points y
+var c = 120;//fourth middle points x
+let s1 = p1+90;//fourth middle points y
+let s2 = p1+130;//fourth middle points y
+var d = 120;//fifth middle points x
+let t1 = p1+140;//fifth middle points y
+let t2 = p1+180;//fifth middle points y
+//inverted one
+var l = 0;//left point height
+var m = 0;//right point height
+var g = 70;//first middle points x
+let u1 = 180;//first middle points y
+let u2 = 200;//first middle points y
+var h = 70;//second middle points x
+let v1 = 130;//second middle points y
+let v2 = 160;//second middle points y
+var i = 70; //third middle points x
+let w1 = 70;//third middle points y
+let w2 = 110;//third middle points y
+var j = 70;//fourth middle points x
+let x1 = 30;//fourth middle points y
+let x2 = 60;//fourth middle points y
+var k = 70;//fifth middle points x
+let y1 = 0;//fifth middle points y
+let y2 = 20;//fifth middle points y
+//variables that do not change
+var x = 0;
+var y = 200;
+var e = 0;
+var f = 200;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER); 
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false);
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+Wallpaper Seven settings
+
+//parameter variables
+let onepatternmode = false;
+//normal one
+var n = 100;//left point height
+var o = 100;//right point height
+var z = 100;//first middle points x
+let p1 = 50;//first middle points y
+let p2 = p1+20;//first middle points y
+var a = 100;//second middle points x
+let q1 = p1+20;//second middle points y
+let q2 = p1+40;//second middle points y
+var b = 100;//third middle points x
+let r1 = p1+40;//third middle points y
+let r2 = p1+60;//third middle points y
+var c = 100;//fourth middle points x
+let s1 = p1+60;//fourth middle points y
+let s2 = p1+80;//fourth middle points y
+var d = 100;//fifth middle points x
+let t1 = p1+80;//fifth middle points y
+let t2 = p1+100;//fifth middle points y
+//inverted one
+var l = 100;//left point height
+var m = 100;//right point height
+var g = 100;//first middle points x
+let u1 = 180;//first middle points y
+let u2 = 200;//first middle points y
+var h = 100;//second middle points x
+let v1 = 140;//second middle points y
+let v2 = 160;//second middle points y
+var i = 100; //third middle points x
+let w1 = 60;//third middle points y
+let w2 = 80;//third middle points y
+var j = 100;//fourth middle points x
+let x1 = 80;//fourth middle points y
+let x2 = 100;//fourth middle points y
+var k = 100;//fifth middle points x
+let y1 = 0;//fifth middle points y
+let y2 = 20;//fifth middle points y
+//variables that do not change
+var x = 0;
+var y = 200;
+var e = 0;
+var f = 200;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER); 
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false);
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+Wallpaper Eight Settings
+//parameter variables
+let onepatternmode = false;
+//normal one
+var n = 200;//left point height
+var o = 100;//right point height
+var z = 10;//first middle points x
+let p1 = 10;//first middle points y
+let p2 = p1+15;//first middle points y
+var a = 190;//second middle points x
+let q1 = p1+0;//second middle points y
+let q2 = p1+25;//second middle points y
+var b = 40;//third middle points x
+let r1 = p1+40;//third middle points y
+let r2 = p1+80;//third middle points y
+var c = 170;//fourth middle points x
+let s1 = p1+110;//fourth middle points y
+let s2 = p1+140;//fourth middle points y
+var d = 190;//fifth middle points x
+let t1 = p1+170;//fifth middle points y
+let t2 = p1+190;//fifth middle points y
+//inverted one
+var l = 100;//left point height
+var m = 200;//right point height
+var g = 20;//first middle points x
+let u1 = 185;//first middle points y
+let u2 = 190;//first middle points y
+var h = 180;//second middle points x
+let v1 = 110;//second middle points y
+let v2 = 140;//second middle points y
+var i = 50; //third middle points x
+let w1 = 40;//third middle points y
+let w2 = 80;//third middle points y
+var j = 180;//fourth middle points x
+let x1 = 0;//fourth middle points y
+let x2 = 25;//fourth middle points y
+var k = 200;//fifth middle points x
+let y1 = 10;//fifth middle points y
+let y2 = 5;//fifth middle points y
+//variables that do not change
+var x = 0;
+var y = 200;
+var e = 0;
+var f = 200;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false);
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+Wallpaper Nine settings
+
+//parameter variables
+let onepatternmode = false;
+//normal one
+var n = 200;//left point height
+var o = 0;//right point height
+var z = 100;//first middle points x
+let p1 = 80;//first middle points y
+let p2 = p1+5;//first middle points y
+var a = 100;//second middle points x
+let q1 = p1+15;//second middle points y
+let q2 = p1+20;//second middle points y
+var b = 100;//third middle points x
+let r1 = p1+30;//third middle points y
+let r2 = p1+35;//third middle points y
+var c = 100;//fourth middle points x
+let s1 = p1+45;//fourth middle points y
+let s2 = p1+50;//fourth middle points y
+var d = 100;//fifth middle points x
+let t1 = p1+60;//fifth middle points y
+let t2 = p1+65;//fifth middle points y
+//inverted one
+var l = 0;//left point height
+var m = 200;//right point height
+var g = 100;//first middle points x
+let u1 = 40;//first middle points y
+let u2 = 45;//first middle points y
+var h = 100;//second middle points x
+let v1 = 55;//second middle points y
+let v2 = 60;//second middle points y
+var i = 100; //third middle points x
+let w1 = 70;//third middle points y
+let w2 = 75;//third middle points y
+var j = 100;//fourth middle points x
+let x1 = 85;//fourth middle points y
+let x2 = 90;//fourth middle points y
+var k = 100;//fifth middle points x
+let y1 = 100;//fifth middle points y
+let y2 = 105;//fifth middle points y
+//variables that do not change
+var x = 0;
+var y = 200;
+var e = 0;
+var f = 200;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER); //GLIDE_WALLPAPER GRID_WALLPAPER
+  pWallpaper.resolution(NINE_PORTRAIT);//NINE_LANDSCAPE FIT_TO_SCREEN NINE_PORTRAIT
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
