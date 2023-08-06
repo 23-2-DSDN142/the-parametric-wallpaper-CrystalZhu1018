@@ -55,6 +55,11 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.row_offset  = 50;
 }
 
+function wallpaper_background() {
+  background(0,0,0); //black colour
+  //background(255, 255, 255); //white colour
+}
+
 Wallpaper Two settings
 
 //parameter variables
@@ -110,6 +115,10 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 50;
+}
+function wallpaper_background() {
+  background(0,0,0); //black colour
+  //background(255, 255, 255); //white colour
 }
 
 Wallpaper Three settings
@@ -168,6 +177,10 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 50;
 }
+function wallpaper_background() {
+  background(0,0,0); //black colour
+  //background(255, 255, 255); //white colour
+}
 
 Wallpaper Four settings
 
@@ -224,6 +237,10 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 50;
+}
+function wallpaper_background() {
+  background(0,0,0); //black colour
+  //background(255, 255, 255); //white colour
 }
 
 Wallpaper Five settings
@@ -282,6 +299,10 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 50;
 }
+function wallpaper_background() {
+  background(0,0,0); //black colour
+  background(255, 255, 255); //white colour
+}
 
 Wallpaper Six Settings
 
@@ -338,6 +359,10 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 50;
+}
+function wallpaper_background() {
+  background(0,0,0); //black colour
+  background(255, 255, 255); //white colour
 }
 
 Wallpaper Seven settings
@@ -396,6 +421,10 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 50;
 }
+function wallpaper_background() {
+  background(0,0,0); //black colour
+  background(255, 255, 255); //white colour
+}
 
 Wallpaper Eight Settings
 //parameter variables
@@ -451,6 +480,10 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 50;
+}
+function wallpaper_background() {
+  background(0,0,0); //black colour
+  background(255, 255, 255); //white colour
 }
 
 Wallpaper Nine settings
@@ -508,4 +541,8 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 50;
+}
+function wallpaper_background() {
+  background(0,0,0); //black colour
+  background(255, 255, 255); //white colour
 }
